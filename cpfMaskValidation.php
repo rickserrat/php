@@ -9,7 +9,7 @@
  */
 function cpf($cpf, $validacao = false){
 
-        $cpf = preg_replace("/[^0-9]/", "", $cpf,-1,$count);
+        $cpf = preg_replace("/[^0-9]/", "", $cpf,1,$count);
 
         if($count > 0){
             return 'Erro: Digite somente caracteres numéricos!';
