@@ -12,7 +12,7 @@ function cpf($cpf, $validacao = false){
         $cpf = preg_replace("/[^0-9]/", "", $cpf,1,$count);
 
         if($count > 0){
-            return 'Erro: Digite somente caracteres numéricos!';
+            return 'Erro: Digite somente numeros!';
         }
 
         if(strlen($cpf) !== 11 ):
