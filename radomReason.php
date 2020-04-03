@@ -1,3 +1,5 @@
+<?php
+
 $listReasons = [
             'Reason 1',
             'Reason 2',
