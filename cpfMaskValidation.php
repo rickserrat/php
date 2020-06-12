@@ -1,7 +1,7 @@
 <?php
 // Função para inserir mascara em CPF, com opção para validação.
 // Recebe string com CPF ex. '09809809809' e retorna o CPF com mascara '098.098.098-09'
-// > cpf('08791351669') | o CPF deve ser enviado como string.
+// > cpf('09809809809') | o CPF deve ser enviado como string.
 /**
  * @param $cpf
  * @param bool $validacao
