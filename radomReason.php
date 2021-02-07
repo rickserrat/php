@@ -8,7 +8,7 @@ $listReasons = [
         ];
 
 /**
- * Randomize list with refund reasons.
+ * Randomize list with reasons.
  *
  * @param $list
  * @return array
