@@ -25,7 +25,7 @@ function randomReason($list) {
           $random[$list[$key]] = $list[$key];
       }
 
-      $option = [''=> 'Selecione o motivo da devolução'];
+      $option = [''=> 'Select the reason'];
 
       return $option + $random;
   }
